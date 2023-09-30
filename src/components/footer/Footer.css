@@ -1,0 +1,17 @@
+.copyright-area {
+  padding: 14px 0px;
+  background-color: black;
+  color: white;
+}
+.copyright-area p {
+  font-size: 12px;
+}
+.copyright-area .social-media {
+  text-align: end;
+  font-size: 12px;
+}
+.copyright-area .social-media a {
+  margin: 0px 10px;
+  color: #fff;
+  width: 20px;
+}

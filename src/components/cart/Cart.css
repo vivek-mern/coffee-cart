@@ -1,0 +1,51 @@
+.product-view .product-name {
+  font-size: 24px;
+  color: #d3ad7f;
+}
+.product-view .product-name .label-stock {
+  font-size: 13px;
+  padding: 4px 13px;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+  float: right;
+}
+.product-view .product-path {
+  font-size: 13px;
+  font-weight: 500;
+  color: #252525;
+  margin-bottom: 16px;
+}
+.product-view .selling-price {
+  font-size: 26px;
+  color: white;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.product-view .original-price {
+  font-size: 18px;
+  color: #937979;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.product-view .btn1 {
+  border: 1px solid;
+  margin-right: 3px;
+  border-radius: 0px;
+  font-size: 14px;
+  margin-top: 10px;
+  background-color: white;
+}
+.product-view .btn1:hover {
+  background-color: #d3ad7f;
+  /* color: #fff; */
+}
+.product-view .input-quantity {
+  border: 1px solid #000;
+  margin-right: 3px;
+  font-size: 12px;
+  margin-top: 10px;
+  width: 58px;
+  outline: none;
+  text-align: center;
+}

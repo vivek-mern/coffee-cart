@@ -1,0 +1,8 @@
+.total {
+  position: fixed;
+  bottom: 40px;
+  right: 0px;
+  left: 0px;
+  z-index: 99;
+  display: inline-block;
+}

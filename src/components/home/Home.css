@@ -1,0 +1,71 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  background: url(../../../public/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
+
+.home .content {
+  max-width: 50%;
+  color: white;
+}
+.home .content h3 {
+  font-size: 55px;
+  text-transform: uppercase;
+  color: white;
+}
+.home .content p {
+  font-size: 12px;
+  color: #eee;
+  line-height: 1.8;
+  padding-left: 10px 0;
+}
+.home .content .btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #d3ad7f;
+  cursor: pointer;
+}
+.home .content .btn:hover {
+  background-color: #d3ad7f;
+  color: white;
+}
+@media (max-width: 991px) {
+  .home {
+    background-position: left;
+    justify-content: left;
+    text-align: left;
+    padding: 30px;
+  }
+  .home .content h3 {
+    font-size: 40px;
+  }
+  .home .content p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home .content h3 {
+    font-size: 30px;
+  }
+  .home .content p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .home .content h3 {
+    font-size: 35px;
+    width: 250px;
+  }
+  .home .content p {
+    font-size: 12px;
+    width: 250px;
+    letter-spacing: 1.5px;
+  }
+}

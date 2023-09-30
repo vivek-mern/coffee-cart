@@ -1,0 +1,48 @@
+.heading {
+  text-align: center;
+  color: #d3ad7f;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+.heading span {
+  color: white;
+  text-transform: uppercase;
+}
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about .row .image {
+  flex: 1 1 45rem;
+}
+.about .row .image img {
+  width: 100%;
+}
+.about .row .content {
+  flex: 1 1 45rem;
+  padding: 20px;
+}
+.about .row .content h3 {
+  font-size: 30px;
+  color: white;
+}
+.about .row .content p {
+  font-size: 16px;
+  color: #ccc;
+  padding: 10px 0;
+}
+.about .row .content .btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #d3ad7f;
+  cursor: pointer;
+}
+.about .row .content .btn:hover {
+  background-color: #d3ad7f;
+  color: white;
+}
